@@ -55,3 +55,26 @@ const toyota = {
 toyota.avanzar( 9273);
 toyota.frenar( 9273);
 toyota.chocar( 9273);
+
+
+const usuario = {
+    registro: function(nombre,email,pasword) {
+        console.log(`El usuario se a registrado exitosamente${nombre,email,pasword}`);
+    },
+    login: function(user,pasword){
+        console.log(`El inicio de sesion fue exitoso ${user,pasword}`);
+    },
+    eliminarUsuario: function(user){
+        console.log(`El usuario fue eliminado${user}`)
+    },
+    actualizarPasword: function(actualizarPasword){
+        console.log(`La contraseña se actualizo correctamente ${actualizarPasword}`)
+    },
+    actualizarUser: function(actualizarUser){
+        console.log(`El usuario se actualizo correctamente ${actualizarUser}`)
+    },
+    actualizarEmail: function(actualizarEmail){
+        console.log(`El email se actualizo correctamente ${actualizarEmail}`)
+    },
+    
+}
