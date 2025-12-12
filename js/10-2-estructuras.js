@@ -29,13 +29,13 @@ if (rol2 === 'ADMIN') {
 let tipoCarro = 'SEDAN';
 
 if (tipoCarro === 'SEDAN') {
-    console.log('Es un carro familiar, ideal para la ciudad y viajes cortos');
+    console.log(`Es un carro familiar, ideal y mas que perfecto para la ciudad y viajes cortos yo le recomendaria un ${Berlina}`);
 } else if (tipoCarro === 'DEPORTIVO') {
-    console.log('Es un carro rapido y elegante perfecto para los amantes de la velocidad');
+    console.log(`Es un carro rapido y elegante perfecto para los amantes de la velocidad a mi eleccion para usted seria un ${porsche}`);
 } else if (tipoCarro === 'CAMIONETA') {
-    console.log('Es un carro grande, perfecto para viajes largos y transportar muchas cosas');
+    console.log('Mi eleccion y creo que es una bastante comun seria una toyota es un carro grande, perfecto para viajes largos y transportar muchas cosas');
 } else {
-    console.log('Tipo de carro desconocido, no tenemos información sobre este tipo de vehículo');
+    console.log('Este tipo de carro es desconocido para nuestro sistema, no tenemos información sobre este tipo de vehículo');
 }
 
 
